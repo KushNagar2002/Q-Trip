@@ -1,0 +1,103 @@
+.hero-image {
+    background-image: url(hero.jpg);
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 100vw;
+}
+
+.hero-image h2,
+.hero-image p {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.hero-input {
+    margin-top: 5px;
+    align-items: center;
+    border-radius: 4px;
+    border: none;
+    width: 500px;
+    height: 30px;
+    font-size: smaller;
+    padding-left: 8px;
+}
+
+@media (min-width: 375px) and (max-width: 640px) {
+    .hero-image {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .hero-input {
+        width: 300px;
+    }
+}
+
+@media (max-width: 375px) {
+    .hero-image {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .hero-input {
+        width: 150px;
+    }
+}
+
+.bg-image {
+    display: flex;
+    flex-wrap: wrap;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.bg-image:hover {
+    filter: brightness(110%);
+    transform: scale(1.1);
+    transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+.pt {
+    padding-top: 200px;
+    color: white;
+}
+
+.py {
+    color: white;
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .col-md-3 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

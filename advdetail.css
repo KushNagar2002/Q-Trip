@@ -1,0 +1,54 @@
+.adventure-detail-card {
+    border: 1px solid #eee;
+    border-radius: 4px;
+    padding: 16px;
+}
+
+.adventure-card-image {
+    width: 100%;
+    height: 100%;
+}
+
+.adventure-card-image:hover {
+    filter: brightness(50%);
+}
+
+#reservation {
+    width: 300px;
+    position: fixed;
+}
+
+@media screen and (max-width: 1280px),
+(max-width: 375px) {
+    #reservation {
+        width: 300px;
+        position: fixed;
+    }
+
+    .container {
+        margin-top: 5px;
+    }
+
+    .gone {
+        margin-left: 13px;
+        margin-bottom: 5px;
+    }
+}
+
+.ptag {
+    color: #9992928e;
+    border-bottom: 1px solid #9992928e;
+}
+
+.content-div {
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif
+}
+
+.container {
+    margin-top: 5px;
+}
+
+.sold-out-sec {
+    margin-left: 3px;
+}
+

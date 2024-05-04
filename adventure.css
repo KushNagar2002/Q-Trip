@@ -1,0 +1,40 @@
+.bg-image {
+    display: flex;
+    flex-wrap: wrap;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.text-center:hover {
+    filter: brightness(110%);
+    transform: scale(1.1);
+    transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+.pt {
+    padding-top: 200px;
+    color: white;
+}
+
+.py {
+    color: white;
+}
+
+.img-fluid {
+    height: 250px !important;
+    width: 306px !important;
+    border-radius: 5%;
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .col-md-3 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+.text-center {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
